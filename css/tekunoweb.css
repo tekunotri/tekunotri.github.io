@@ -1,0 +1,74 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Ubuntu' , sans-serif;
+}
+a:link {
+  color: firebrick
+}
+   
+a:visited {
+  color: #333
+}
+
+.warning {
+  color: red;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #111; /* Dark background color */
+  border: 1px solid #ccc; /* Add a border */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: #888; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ccc; /* Grey background color */
+  color: black; /* Black text color */
+}
+
+/* tab-related */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #111;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #888;
+
+}
+.tab button:hover {
+  background-color: #ccc;
+  color: black;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
